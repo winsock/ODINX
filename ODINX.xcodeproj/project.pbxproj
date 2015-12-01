@@ -1,0 +1,280 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C2BC0681BF140CF0024FD47 /* ODINX.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 4C2BC0671BF140CF0024FD47 /* ODINX.hpp */; };
+		4C2BC06A1BF140CF0024FD47 /* ODINX.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C2BC0691BF140CF0024FD47 /* ODINX.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4C2BC0641BF140CF0024FD47 /* ODINX.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ODINX.kext; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C2BC0671BF140CF0024FD47 /* ODINX.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ODINX.hpp; sourceTree = "<group>"; };
+		4C2BC0691BF140CF0024FD47 /* ODINX.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ODINX.cpp; sourceTree = "<group>"; };
+		4C2BC06B1BF140CF0024FD47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C482E991BF1410E004928D7 /* Kernel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kernel.framework; path = System/Library/Frameworks/Kernel.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C2BC0601BF140CF0024FD47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C2BC05A1BF140CF0024FD47 = {
+			isa = PBXGroup;
+			children = (
+				4C2BC0661BF140CF0024FD47 /* ODINX */,
+				4C2BC0651BF140CF0024FD47 /* Products */,
+				4C482E9B1BF14118004928D7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4C2BC0651BF140CF0024FD47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C2BC0641BF140CF0024FD47 /* ODINX.kext */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C2BC0661BF140CF0024FD47 /* ODINX */ = {
+			isa = PBXGroup;
+			children = (
+				4C2BC0671BF140CF0024FD47 /* ODINX.hpp */,
+				4C2BC0691BF140CF0024FD47 /* ODINX.cpp */,
+				4C2BC06B1BF140CF0024FD47 /* Info.plist */,
+			);
+			path = ODINX;
+			sourceTree = "<group>";
+		};
+		4C482E9B1BF14118004928D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C482E991BF1410E004928D7 /* Kernel.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4C2BC0611BF140CF0024FD47 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C2BC0681BF140CF0024FD47 /* ODINX.hpp in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4C2BC0631BF140CF0024FD47 /* ODINX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C2BC06E1BF140CF0024FD47 /* Build configuration list for PBXNativeTarget "ODINX" */;
+			buildPhases = (
+				4C2BC05F1BF140CF0024FD47 /* Sources */,
+				4C2BC0601BF140CF0024FD47 /* Frameworks */,
+				4C2BC0611BF140CF0024FD47 /* Headers */,
+				4C2BC0621BF140CF0024FD47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ODINX;
+			productName = ODINX;
+			productReference = 4C2BC0641BF140CF0024FD47 /* ODINX.kext */;
+			productType = "com.apple.product-type.kernel-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C2BC05B1BF140CF0024FD47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Andrew Querol";
+				TargetAttributes = {
+					4C2BC0631BF140CF0024FD47 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 4C2BC05E1BF140CF0024FD47 /* Build configuration list for PBXProject "ODINX" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4C2BC05A1BF140CF0024FD47;
+			productRefGroup = 4C2BC0651BF140CF0024FD47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C2BC0631BF140CF0024FD47 /* ODINX */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C2BC0621BF140CF0024FD47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C2BC05F1BF140CF0024FD47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C2BC06A1BF140CF0024FD47 /* ODINX.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4C2BC06C1BF140CF0024FD47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.11;
+				VALID_ARCHS = x86_64;
+			};
+			name = Debug;
+		};
+		4C2BC06D1BF140CF0024FD47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx10.11;
+				VALID_ARCHS = x86_64;
+			};
+			name = Release;
+		};
+		4C2BC06F1BF140CF0024FD47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ODINX/Info.plist;
+				MODULE_NAME = me.querol.andrew.ODINX;
+				PRODUCT_BUNDLE_IDENTIFIER = me.querol.andrew.ODINX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Debug;
+		};
+		4C2BC0701BF140CF0024FD47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ODINX/Info.plist;
+				MODULE_NAME = me.querol.andrew.ODINX;
+				PRODUCT_BUNDLE_IDENTIFIER = me.querol.andrew.ODINX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C2BC05E1BF140CF0024FD47 /* Build configuration list for PBXProject "ODINX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C2BC06C1BF140CF0024FD47 /* Debug */,
+				4C2BC06D1BF140CF0024FD47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C2BC06E1BF140CF0024FD47 /* Build configuration list for PBXNativeTarget "ODINX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C2BC06F1BF140CF0024FD47 /* Debug */,
+				4C2BC0701BF140CF0024FD47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C2BC05B1BF140CF0024FD47 /* Project object */;
+}
